@@ -154,7 +154,7 @@
 
     - A queue_url é encontrada na fila que você acabou de criar.
 
-    5. Agora basta executar o arquivo Producer.py e Consumer.py. Será possível ver as mensagens criada pelo Producer.py na lista de mensagens da fila criada na AWS e sempre que executar o Consumer.py a fila será deletada.
+5. Agora basta executar o arquivo Producer.py e Consumer.py. Será possível ver as mensagens criada pelo Producer.py na lista de mensagens da fila criada na AWS e sempre que executar o Consumer.py a fila será deletada.
 
 
 
