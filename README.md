@@ -1,1 +1,1 @@
-# CN_grupo7_integracao_e_mensageria
+Tutoriais - Grupo 7 - Computação em Nuvem 2024.1

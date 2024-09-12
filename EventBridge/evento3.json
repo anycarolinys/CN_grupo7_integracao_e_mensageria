@@ -1,0 +1,15 @@
+{
+    "source": ["my-ecommerce-app"],
+    "detail-type": ["orderCreated"],
+    "detail": {
+      "quantity": [ { "numeric": [ ">", 5 ] } ]
+    }
+  }
+
+{
+    "source": ["my-ecommerce-app"],
+    "detail-type": ["orderCreated"],
+    "detail": {
+      "quantity": [ { "numeric": [ ">", 50 ] } ]
+    }
+  }

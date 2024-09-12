@@ -1,0 +1,23 @@
+## **Tutorial EventBridge**
+
+- Procurar "EventBridge" na busca
+- No menu à esquerda ir em ```Event Buses```
+- Ir em ```Create Event Bus```
+- Manter ```Event archive``` e ```Schema discovery``` desabilitados
+- O ```Resource-based policy``` serve para prover permissoes para outros servicos se conectarem ao AWS EventBridge (nao e necessario neste tutorial)
+- Crie o ```Event bus```
+- Selecione o evento criado e va em ```Send events```
+- Selecione o evento criado no campo ```Event bus```
+- Em ```Event source``` coloque um nome de um servico de exemplo como ```my-ecommerce-app```
+- Em ```Detail type``` coloque ```orderCreated```
+- Em ```Event detail``` coloque o conteudo de ```evento1.json```
+- Clique em ```Send event```
+- Na tela de ```Confirmation``` copie o conteudo do evento criado
+- No menu a esquerda clique em ```Rules```
+- Em ```Event bus``` selecione o criado anteriormente
+- De um nome para a regra
+- em ```Event Source``` selecione ```Other```
+- Em ```Sample event``` selecione ```Enter my own``` e cole o conteudo do evento criado anteriormente
+- Em ```Event pattern``` selecione o conteudo de ```evento3.json```
+- Teste o padrao com os eventos criados 
+- Clique em proximo e selecione o servico ```SQS queue```

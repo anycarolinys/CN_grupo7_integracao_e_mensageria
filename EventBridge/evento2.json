@@ -1,0 +1,14 @@
+{
+    "version": "0",
+    "id": "fbc2fe8a-b2b4-9ae4-2858-64a0e0e217a7",
+    "detail-type": "orderCreated",
+    "source": "my-ecommerce-app",
+    "account": "210838589027",
+    "time": "2024-09-12T20:59:08Z",
+    "region": "us-east-1",
+    "resources": [],
+    "detail": {
+      "orderId": 100,
+      "quantity": 10
+    }
+  }
