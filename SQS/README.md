@@ -72,11 +72,11 @@
 
     ### Passo a passo
 
-    1. Instalar o Boto3
+1. Instalar o Boto3
     ````
     pip install boto3
     ````
-    2. Configurar credenciais AWS: As credenciais (chave de acesso e chave secreta) precisam estar configuradas para que o Boto3 possa autenticar suas requisições com o AWS.
+2. Configurar credenciais AWS: As credenciais (chave de acesso e chave secreta) precisam estar configuradas para que o Boto3 possa autenticar suas requisições com o AWS.
     
         2.1. Crie um arquivo na raiz no seu projeto **/.aws/credentials**
         
@@ -99,7 +99,7 @@
 
         - Sempre que o Lab é reiniciado as suas credenciais AWS são alteradas, será necessário alterá-las.
 
-    3. Crie um arquivo chamado Producer.py
+3. Crie um arquivo chamado Producer.py
     ````
     import boto3
 
@@ -121,7 +121,7 @@
     print(f'Mensagem enviada com ID: {response["MessageId"]}')
     ````
 
-    4. Crie um arquivo chamado Consumer.py
+4. Crie um arquivo chamado Consumer.py
     ````
     import boto3
 
